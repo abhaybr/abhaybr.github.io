@@ -1,0 +1,17 @@
+
+
+.tab {
+  float: left;
+ 
+  
+  border-left: none;
+}
+
+
+.tabcontent {
+  float: left;
+  padding: 0px 50px;
+  width: 100%;
+  border-left: 2px solid rgb(211,213,228);
+  height: none;
+}

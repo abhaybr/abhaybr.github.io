@@ -1,133 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<html>
-	<head>
-		<title>Abhay B. R.</title>
-        <!--meta : boiler plate entries-->
-         <meta charset="utf-8">
-         <meta name="viewport"  content="width=device-width, initial-scale=1">
-         <link rel="stylesheet" type="text/css" href="main.css">
-	</head> 
-	<hr style="color:rgb(11,78,137);"/>
-	<hr style="color:rgb(11,78,137);"/>
-        <!--<body bgcolor="#ffffff">-->
-<div id="textbox">
-<p class="alignleft"> 
-	<b>Abhay B. Ramachandra, Ph. D</b> <br /> 
-	 <a href="https://pubmed.ncbi.nlm.nih.gov/?term=abhay+ramachandra" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Pubmed</a>, <a href="https://scholar.google.com/citations?user=oQTUnRMAAAAJ&hl=en&oi=ao" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Google Scholar</a> 
-</p>
-<p class="alignright"> 
-	<a href="https://seas.yale.edu/people/postdocs/abhay-ramachandra" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Contact </a> <br />
-	Tweet @ <a href="https://twitter.com/abhay_br" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;">  abhay_br</a>
-</p> 
-</div>
-<br />
-<br />
-<br />
-<br />
-<hr style="color:rgb(11,78,137);"/>
-<hr style="color:rgb(11,78,137);"/>
- &emsp; &emsp;&emsp;<b> Academic Interests </b>:  Biomechanics, Vascular Biology, Computational Mechanics, Cardiovascular, Tissue Engineering, Translational <br />	
-<br />
-
-<!--		<nav> -->
-		<div class="tabs">
-                
-		<button type="button"><a href="#EducationTraining" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;" >Education and Training</a></button>
-                <button type="button"><a href="#Publications" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;">Publications</a></button>
-                <button type="button"><a href="#Resources" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;">Resources</a></button>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <title>Abhay B. R.</title>
+      
+      <style>
+          
+         
+          body{
+              
+                  /*Change Background color here*/
+            margin: 0 auto;
+              padding: 0 auto;
+           
+          }
+          
+      #pills-tab{
         
-         	<div id="EducationTraining" class="tabcontent">
-		<p>
-			<h3> Education and Training  </h3> 
-<hr style="color:rgb(11,78,137);"/> 
-		          <b>Postdoc </b>- Department of Biomedical Engineering, Yale University, CT, USA <br />
-		          Advisor: <a href="https://seas.yale.edu/faculty-research/faculty-directory/jay-humphrey" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Prof. Jay D. Humphrey </a> <br/>
+          font-size: 20px; /*Change About tab font size here*/
+            color:white;
+          
+          background-color: #f1f1f1;
+          
+          }
+          
+          .tab-pane {
+              background-color: white;
+          }
+          
+          #mainHeadingBar{
+              
+              background-color: #20558a;  /*Change Heading color here*/
+              color:white;
+          }
+          
+
+          
+
+       .nav-tabs > li > a{
+              color: #20558a;
+           background-color: #f1f1f1;
+         
+           
+          }
+         
+          
+        .nav-tabs > li > a:hover{
+              color: #27496D;
+           background-color: gainsboro;
+           
+          }  
+        
+          #pills-home li{
+              list-style: circle;
+              
+          }
+          
+          #pills-teaching li {
+              list-style: circle;
+              
+          }
+          
+          #pills-links li {
+              list-style: circle;
+              
+          }
+          
+          #pubmed{
+             font-weight: bold;
+              margin-left: 20px;
+              margin-top: 20px;
+          }
+          
+          #list-tab{
+              font-weight: bold;
+          }
+            
+      </style>
+  </head>
+  <body>
+    
+     
+      <header>
+   <div class="container">
+       <div class="navbar" id="mainHeadingBar">
+    
+     
+        <div class="navbar-brand d-flex">
+        <h2>Abhay B. Ramachandra, PhD</h2>
+      </div>
+        <div class="align-items-right">
+       <a class="btn btn-outline-light" href="https://seas.yale.edu/people/postdocs/abhay-ramachandra" role="button">
+     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+  <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.313l6.709 3.933L8 8.928l1.291.717L16 5.715V5.4a2 2 0 0 0-1.059-1.765l-6-3.2zM16 6.873l-5.693 3.337L16 13.372v-6.5zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516zM0 13.373l5.693-3.163L0 6.873v6.5z"/>
+</svg>
+       </a>
+        <!--<a class="btn btn-outline-light" href="https://seas.yale.edu/people/postdocs/abhay-ramachandra" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+  <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5zm.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1h-2z"/>
+</svg></a>-->
+        <a class="btn btn-outline-light" href="https://twitter.com/abhay_br" role="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+</svg></a>
+        </div>
+    </div>
+           
+  </div>
+ 
+</header>
+      
+      
+   <div class="container"> 
+ 	
+ <ul class="nav nav-tabs mb-3 flex-column flex-sm-row justify-content-center" id="pills-tab" role="tablist">
+    
+  <li class="nav-item" role="presentation">
+    <a class="nav-link active" id="pills-home-tab" data-toggle="tab" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">About</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pills-education-tab" data-toggle="tab" href="#pills-education" role="tab" aria-controls="pills-education" aria-selected="false">Education and Training</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pills-publications-tab" data-toggle="tab" href="#pills-publications" role="tab" aria-controls="pills-publications" aria-selected="false">Publications</a>
+  </li>
+  <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pills-teaching-tab" data-toggle="tab" href="#pills-teaching" role="tab" aria-controls="pills-teaching" aria-selected="false">Teaching and Academic Service</a>
+  </li>
+     <li class="nav-item" role="presentation">
+    <a class="nav-link" id="pills-links-tab" data-toggle="tab" href="#pills-links" role="tab" aria-controls="pills-links" aria-selected="false">Links</a>
+  </li>
+</ul>
+
+   
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    
+      <div class="row">
+          
+                   <div class="col-3">
+    <figure class="figure">
+        <img src="files/Abhay7.JPG" class="figure-img img-fluid rounded" alt="image" height="200" width="200">
+     </figure>
+              
+            </div>
+      
+           <div class="col-8">
+          <!--------------------Modify to include more personal details-------------------------->
+               <!-- <p><b> About Me</b>: I like to -->
+              <b>Current Position</b>: Postdoctoral Associate, Department of Biomedical Engineering, Yale University <br>
+
+              <br>
+
+              <b> Academic Interests</b>:  
+              <ul>
+              	<li>Biomechanics </li>
+              	<li>Computational Mechanics</li> 
+              	<li>Vascular Biology</li>
+              	<li>Tissue Engineering</li>
+              	<li>Cardiovascular</li>
+              	<li>Translational</li>
+              </ul>
+              <p><b>Professional Memberships</b>:<br> <a href="https://www.navbo.org/">North American Vascular Biology Organization (NAVBO)</a> <br> <a href="https://www.asmb.net/">American Society of Matrix Biology (ASMB)</a></p>
+                <!--<p><b> Add text here </b>:Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>-->
+              
+          </div> 
+              
+    <!--------------------Modify to include more personal details-------------------------->
+     
+              </div>
+    
+     </div> 
+
+  <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-profile-tab">
+    
+    <b>Postdoctoral Associate </b>- Department of Biomedical Engineering, Yale University, CT, USA  <br />
+		          Advisor: <a href="https://seas.yale.edu/faculty-research/faculty-directory/jay-humphrey"> Prof. Jay D. Humphrey </a> <br/>
 		          <br />
 		          <b> PhD </b>(specialization in Multiscale Biology)    - Department of Mechanical and Aerospace Engineering, University of California San Diego, CA, USA <br />
 		          <b> Graduate Student </b> (non-matriculated) - Institute for Computational and Mathematical Engineering and Department of Pediatrics, Stanford University, CA, USA<br />
-		          Thesis - <i> <a href ="https://escholarship.org/uc/item/9wv2j1fx" style="color:rgb(11,78,137);text-decoration:none;">"Towards a Fluid-Solid-Growth and Remodeling Framework for Simulating Vein Graft Failure in Coronary Artery Bypass Surgery."</a> </i> <br />
-		          Advisor: <a href="https://cbcl.stanford.edu/" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Prof. Alison L. Marsden </a> <br />
+		          Thesis - <i> <a href ="https://escholarship.org/uc/item/9wv2j1fx">"Towards a Fluid-Solid-Growth and Remodeling Framework for Simulating Vein Graft Failure in Coronary Artery Bypass Surgery."</a> </i> <br />
+		          Advisor: <a href="https://cbcl.stanford.edu/"> Prof. Alison L. Marsden </a> <br />
 		          <br />
 		          <b> Masters </b> (Thesis)  - Department of Mechanical Engineering, Carnegie Mellon University, PA, USA <br />
 		          Thesis title- <i>"The Effect of Outflow Boundary Conditions on the Hemodynamics of Human Pulmonary Arteries." </i><br />
-		          Advisor: <a href="http://www.vascularbiomechanics.org/" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Prof. Ender A. Finol </a> <br />
+		          Advisor: <a href="http://www.vascularbiomechanics.org/"> Prof. Ender A. Finol </a> <br />
 		          <br />
 		          <b> B. Tech.</b>  - Department of Mechanical Engineering, National Institute of Technology Karnataka Surathkal, India <br />
-			
-		</p>
-		</div>
-	<!-- Tab content -->
-                <div id="Publications" class="tabcontent">
-<hr style="color:rgb(11,78,137);"/> 
-                <h3>Publications - Journal</h3>
-                <p>
-	        <h4> First/Co-first Author </h4>
+    
+    </div>
+  <div class="tab-pane fade" id="pills-publications" role="tabpanel" aria-labelledby="pills-contact-tab">
+    
+    <br>
+    <div class="row">
+  <div class="col-3">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action list-group-item-light" data-toggle="list" href="#list-papers" role="tab" aria-controls="papers">Journal Papers</a>
+      <a class="list-group-item list-group-item-action list-group-item-light" id="list-cover-list" data-toggle="list" href="#list-cover" role="tab" aria-controls="cover">Journal Covers</a>
+      
+    </div>
+      <div id="pubmed">
+      <p><a href="https://pubmed.ncbi.nlm.nih.gov/?term=abhay+ramachandra"><u>PubMed</u></a></p>
+      
+      <p><a href="https://scholar.google.com/citations?user=oQTUnRMAAAAJ&hl=en&oi=ao"><u>Google Scholar</u></a></p>
+          
+          </div>
+  </div>
+  <div class="col-8">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade" id="list-cover" role="tabpanel" aria-labelledby="list-cover-list">
+        
+        
+     <h5>Journal Covers</h5>
+                 <figure>
+                 <a href="https://academic.oup.com/ib/issue/12/3"> <img src="./files/2019_IB_cover.png" class="figure-img img-fluid rounded" width="250" height="300"></a>
+                      <a href="https://stm.sciencemag.org/content/12/537"> <img src="./files/2020_STM_cover.png" class="figure-img img-fluid rounded" width="250" height="300"></a>                       <a href="https://onlinelibrary.wiley.com/doi/10.1002/adhm.202070086"> <img src="./files/2020_AHM_cover.jpg" class="figure-img img-fluid rounded" width="250" height="300"></a>
+                     <a href="https://stm.sciencemag.org/content/12/557"> <img src="./files/2020_AVVA_STM_cover.png" class="figure-img img-fluid rounded" width="250" height="300"></a>
+                </figure>
+        
+        
+        </div>
+      <div class="tab-pane fade show active" id="list-papers" role="tabpanel" aria-labelledby="list-papers-list">
+        
+         
+          <h5><u>First/Co-first Author</u></h5>
 		<ol>
-                         <li> J. Seo *,<b>A.B. Ramachandra*</b>, J. Boyd, A.L. Marsden, & A.M. Kahn,  (2021), <a href="https://www.sciencedirect.com/science/article/abs/pii/S1043067921001192" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Computational Evaluation of Venous Graft Geometries in Coronary Artery Bypass Surgery </a>, <b> Seminars in Thoracic and Cardiovascular Surgery</b>,  <i>in press</i> </li>
-                        <li> <b>A. B. Ramachandra</b>, M. Latorre, J. M. Szafron, A. L. Marsden, and J. D. Humphrey, (2020), <a href="https://www.sciencedirect.com/science/article/abs/pii/S1751616120304951" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;">Vascular Adaptation in the Presence of External Support - A Modeling Study</a>, <b> Journal of the Mechanical Behavior of Biomedical Materials</b>, 110, 103943</li>
-			<li>R. Khosravi*, <b>A. B. Ramachandra*</b>, J. M. Szafron, D. E. Schiavazzi, C.K. Breuer, & J. D. Humphrey, (2020),<a href="https://academic.oup.com/ib/article-abstract/12/3/47/5801083" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> A computational bio-chemo-mechanical model of in vivo tissue-engineered vascular graft development</a>, <b>Integrative Biology</b>, 12(3), 47-63 </li>
-			<li><b>A. B. Ramachandra</b>, & J.D. Humphrey, (2018), <a href="https://www.sciencedirect.com/science/article/pii/S0021929018309023"style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Biomechanical characterization of murine pulmonary arteries</a>, <b>Journal of Biomechanics.</b>, 84, 18-26</li>
-			<li><b>A. B. Ramachandra</b>, J. D. Humphrey, & A. L. Marsden, (2017), <a href="http://rsif.royalsocietypublishing.org/content/14/130/20160995"style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Gradual loading ameliorates maladaptation in computational simulations of vein graft growth and remodelling</a>, <b> Journal of The Royal Society Interface, 14(130), 20160995.</b></li>
-			<li><b>A. B. Ramachandra</b>, A.M. Kahn, & A. L. Marsden, (2016),<a href="https://link.springer.com/article/10.1007/s12265-016-9706-0" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Patient-specific simulations reveal significant differences in mechanical stimuli in venous and arterial coronary grafts</a>, <b>Journal of Cardiovascular Translational Research</b>, 9(4), 279-290.</li>
-			<li><b>A. B. Ramachandra</b>, S. Sankaran, J. D. Humphrey, & A. L. Marsden, (2015), <a href="https://biomechanical.asmedigitalcollection.asme.org/article.aspx?articleid=1934919" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Computational simulation of the adaptive capacity of vein grafts in response to increased pressure</a>, <b>Journal of Biomechanical Engineering</b>, 137(3), 031009.</li>
+            <li> J. Seo *, <b>A.B. Ramachandra*</b>, J. Boyd, A.L. Marsden, & A.M. Kahn,  (2021), <a href="https://www.sciencedirect.com/science/article/abs/pii/S1043067921001192"> Computational Evaluation of Venous Graft Geometries in Coronary Artery Bypass Surgery </a>, <b> Seminars in Thoracic and Cardiovascular Surgery</b>,  <i>in press</i> </li>
+            <li> <b>A. B. Ramachandra</b>, M. Latorre, J. M. Szafron, A. L. Marsden, and J. D. Humphrey, (2020), <a href="https://www.sciencedirect.com/science/article/abs/pii/S1751616120304951">Vascular Adaptation in the Presence of External Support - A Modeling Study</a>, <b> Journal of the Mechanical Behavior of Biomedical Materials</b>, 110, 103943</li>
+			<li>R. Khosravi*, <b>A. B. Ramachandra*</b>, J. M. Szafron, D. E. Schiavazzi, C.K. Breuer, & J. D. Humphrey, (2020),<a href="https://academic.oup.com/ib/article-abstract/12/3/47/5801083"> A computational bio-chemo-mechanical model of in vivo tissue-engineered vascular graft development</a>, <b>Integrative Biology</b>, 12(3), 47-63 </li>
+			<li><b>A. B. Ramachandra</b>, & J.D. Humphrey, (2018), <a href="https://www.sciencedirect.com/science/article/pii/S0021929018309023"> Biomechanical characterization of murine pulmonary arteries</a>, <b>Journal of Biomechanics.</b>, 84, 18-26</li>
+			<li><b>A. B. Ramachandra</b>, J. D. Humphrey, & A. L. Marsden, (2017), <a href="http://rsif.royalsocietypublishing.org/content/14/130/20160995"> Gradual loading ameliorates maladaptation in computational simulations of vein graft growth and remodelling</a>, <b> Journal of The Royal Society Interface, 14(130), 20160995.</b></li>
+			<li><b>A. B. Ramachandra</b>, A.M. Kahn, & A. L. Marsden, (2016),<a href="https://link.springer.com/article/10.1007/s12265-016-9706-0"> Patient-specific simulations reveal significant differences in mechanical stimuli in venous and arterial coronary grafts</a>, <b>Journal of Cardiovascular Translational Research</b>, 9(4), 279-290.</li>
+			<li><b>A. B. Ramachandra</b>, S. Sankaran, J. D. Humphrey, & A. L. Marsden, (2015), <a href="https://biomechanical.asmedigitalcollection.asme.org/article.aspx?articleid=1934919"> Computational simulation of the adaptive capacity of vein grafts in response to increased pressure</a>, <b>Journal of Biomechanical Engineering</b>, 137(3), 031009.</li>
 		        <!--<li><a href="/about">About</a></li>-->
 			<!--<li><a href="/publications">Publications (journal only)</a></li>-->
 		 </ol>
-		 <h4> Collaborative Work </h4>
+		<b> * denotes equal contribution</b>
+        <h5><u>Collaborative Work</u></h5>
 		 <ol start="8">	
-		<li>B. Spronck, M. Latorre, M. Wang, S. Mehta, A. Caulk, P. Ren,<b> A.B. Ramachandra</b>, S. Murtada, A. Rojas, C. He, B. Jiang, M. Bersi, G. Tellides, J. D. Humphrey, (2021),<a href="https://royalsocietypublishing.org/doi/abs/10.1098/rsif.2021.0336" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Excessive adventitial stress drives inflammation-mediated fibrosis in hypertensive aortic remodelling in mice</a>, <b> Journal of the Royal Society Interface</b>, 18.180: 20210336.</li>
-		<li> E. Schwarz, J. Kelly, K. Blum, K. Hor, A. Yates, J. Zbinden, A. Verma, S. Lindsey, <b> A. B. Ramachandra</b>, J. Szafron, J. D. Humphrey, T. Shinoka, A. L. Marsden, C. K.  Breuer, (2021), <a href="https://www.nature.com/articles/s41536-021-00148-w" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> “Hemodynamic performance of tissue-engineered vascular grafts in Fontan patients” </a>,<b> npj Regenerative Medicine</b>, 6.1: 1-17.</li>
-                 <li> D. Weiss, C. Cavinato, A. Gray, <b>A. B. Ramachandra</b>, S. Avril, J. D. Humphrey, M.L. Latorre, (2020), <a href="https://advances.sciencemag.org/content/6/49/eabd3574" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Mechanics-Driven Mechanobiological Mechanisms of Arterial Tortuosity </a>, <b>Science Advances</b>, 6.49, eabd3574.</li>
-                    <li> J. Zbinden, K. Blum, A.G. Berman, <b>A. B. Ramachandra</b>, J.M. Szafron, K. Kerr, J. L. Anderson, G. S. Sangha, C. C. Earl, N. R. Nigh, G. Mirhaidari, J.  Reinhardt, Y. Chang, T. Yi, R. Smalley, P. Gabriele, J.J. Harris, J. D. Humphrey, C. J. Goergen, C.K. Breuer, (2020), <a href="https://onlinelibrary.wiley.com/doi/10.1002/adhm.202001093" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Effects of Braiding Parameters on Tissue Engineered Vascular Graft Development</a>, <b>Advanced Healthcare Materials</b>, 2001093.</li>
-                    <li> H. Bai, N. Sadaghianloo, J. Gorecka, S. Liu, S. Ono, <b>A. B. Ramachandra</b>, S. Bonnet, N. M. Mazure, S. Declemy, J. D. Humphrey, A. Dardik, (2020), <a href="https://stm.sciencemag.org/content/12/557/eaax7613" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;">Artery to vein configuration of arteriovenous fistula improves hemodynamics to increase maturation and patency</a>, <b>Science Translational Medicine</b>, 12(557).</li>
-		 <li> J. D. Drews, V. K. Pepper, C. A. Best, J. M. Szafron, J. P. Cheatham, A. R. Yates., K. N. Hor, J. C. Zbinden, Y. C. Chang, G. J. Mirhaidari, <b>A. B. Ramachandra</b>, et. al. (2020), <a href="https://stm.sciencemag.org/content/12/537/eaax6919.abstract" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;">Spontaneous reversal of stenosis in tissue-engineered vascular grafts</a>, <b>Science Translational Medicine</b>, 12(537).</li>
-                 <li>J. M. Szafron,<b> A. B. Ramachandra</b>, C. K. Breuer, A. L. Marsden, & J. D. Humphrey, (2019), <a href="https://doi.org/10.1089/ten.TEC.2019.0086" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;">Optimization of Tissue Engineered Vascular Graft Design Using Computational Modeling</a>, <b>Tissue Engineering C: Methods</b>, 25.10, 561-570, 2019 </li>
-		 <li>J. S. Tran, D. E. Schiavazzi,<b> A. B. Ramachandra</b>, A. M. Kahn, & A. L. Marsden, (2017), <a href="https://www.sciencedirect.com/science/article/pii/S004579301630161X" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Automated tuning for parameter identification and uncertainty quantification in multi-scale coronary simulations</a>, <b>Computers & Fluids</b>, 142, 128-138.</li>
+		 <li> E. P. Manning, <b>A. B. Ramachandra</b>, J. C. Schupp, C. Cavinato, M. S. Brickman Raredon, T. Bärnthaler, C. Cosme, I. Singh, N. Kaminski, and J. D. Humphrey, Novel Mechanisms of Pulmonary Arterial Stiffening in Mice due to Hypoxia Using a Functional Genetics Assay of Structural, Functional, and Transcriptomic Data, <b> Frontiers in Physiology</b>, <i> Accepted</i>. </li>
+		<li>B. Spronck, M. Latorre, M. Wang, S. Mehta, A. Caulk, P. Ren,<b> A.B. Ramachandra</b>, S. Murtada, A. Rojas, C. He, B. Jiang, M. Bersi, G. Tellides, J. D. Humphrey, (2021),<a href="https://royalsocietypublishing.org/doi/abs/10.1098/rsif.2021.0336"> Excessive adventitial stress drives inflammation-mediated fibrosis in hypertensive aortic remodelling in mice</a>, <b> Journal of the Royal Society Interface</b>, 18.180: 20210336.</li>
+		<li> E. Schwarz, J. Kelly, K. Blum, K. Hor, A. Yates, J. Zbinden, A. Verma, S. Lindsey, <b> A. B. Ramachandra</b>, J. Szafron, J. D. Humphrey, T. Shinoka, A. L. Marsden, C. K.  Breuer, (2021), <a href="https://www.nature.com/articles/s41536-021-00148-w"> “Hemodynamic performance of tissue-engineered vascular grafts in Fontan patients” </a>,<b> npj Regenerative Medicine</b>, 6.1: 1-17.</li>
+         <li> D. Weiss, C. Cavinato, A. Gray, <b>A. B. Ramachandra</b>, S. Avril, J. D. Humphrey, M.L. Latorre, (2020), <a href="https://advances.sciencemag.org/content/6/49/eabd3574"> Mechanics-Driven Mechanobiological Mechanisms of Arterial Tortuosity </a>, <b>Science Advances</b>, 6.49, eabd3574.</li>
+        <li> J. Zbinden, K. Blum, A.G. Berman, <b>A. B. Ramachandra</b>, J.M. Szafron, K. Kerr, J. L. Anderson, G. S. Sangha, C. C. Earl, N. R. Nigh, G. Mirhaidari, J.  Reinhardt, Y. Chang, T. Yi, R. Smalley, P. Gabriele, J.J. Harris, J. D. Humphrey, C. J. Goergen, C.K. Breuer, (2020), <a href="https://onlinelibrary.wiley.com/doi/10.1002/adhm.202001093"> Effects of Braiding Parameters on Tissue Engineered Vascular Graft Development</a>, <b>Advanced Healthcare Materials</b>, 2001093.</li>
+         <li> H. Bai, N. Sadaghianloo, J. Gorecka, S. Liu, S. Ono, <b>A. B. Ramachandra</b>, S. Bonnet, N. M. Mazure, S. Declemy, J. D. Humphrey, A. Dardik, (2020), <a href="https://stm.sciencemag.org/content/12/557/eaax7613">Artery to vein configuration of arteriovenous fistula improves hemodynamics to increase maturation and patency</a>, <b>Science Translational Medicine</b>, 12(557).</li>
+		 <li> J. D. Drews, V. K. Pepper, C. A. Best, J. M. Szafron, J. P. Cheatham, A. R. Yates., K. N. Hor, J. C. Zbinden, Y. C. Chang, G. J. Mirhaidari, <b>A. B. Ramachandra</b>, et. al. (2020), <a href="https://stm.sciencemag.org/content/12/537/eaax6919.abstract">Spontaneous reversal of stenosis in tissue-engineered vascular grafts</a>, <b>Science Translational Medicine</b>, 12(537).</li>
+         <li>J. M. Szafron,<b> A. B. Ramachandra</b>, C. K. Breuer, A. L. Marsden, & J. D. Humphrey, (2019), <a href="https://doi.org/10.1089/ten.TEC.2019.0086">Optimization of Tissue Engineered Vascular Graft Design Using Computational Modeling</a>, <b>Tissue Engineering C: Methods</b>, 25.10, 561-570, 2019 </li>
+		 <li>J. S. Tran, D. E. Schiavazzi,<b> A. B. Ramachandra</b>, A. M. Kahn, & A. L. Marsden, (2017), <a href="https://www.sciencedirect.com/science/article/pii/S004579301630161X"> Automated tuning for parameter identification and uncertainty quantification in multi-scale coronary simulations</a>, <b>Computers & Fluids</b>, 142, 128-138.</li>
 	        </ol>
-
-                <h4> Under Review / Preprint </h4>
-                <ol start=16>
-		<li>K. M. Blum ∗ , J. C. Zbinden ∗ , <b>A. B. Ramachandra∗</b>, S. E. Lindsey ∗ , J. M. Szafron ∗ , et al. ,“Tissue Engineered Vascular Grafts Transform into Autologous Neovessels Capable of Native Function and Growth”, <i> under revision</i>. </li>
-		<li> E. P. Manning, <b>A. B. Ramachandra</b>, J. C. Schupp, C. Cavinato, M. S. Brickman Raredon, C. Cosme, I. Singh, N. Kaminski, and J. D. Humphrey, “Novel Mechanisms of Pulmonary Arterial Stiffening in Mice due to Hypoxia Using a Functional Genetics Assay of Structural, Functional, and Transcriptomic Data”, <i> under revision </i>. </li>
+          <h5><u>Submitted/Under Review</u></h5>
+                <ol start=17>
+		<li>K. M. Blum ∗ , J. C. Zbinden ∗ , <b>A. B. Ramachandra∗</b>, S. E. Lindsey ∗ , J. M. Szafron ∗ , et al. ,“Tissue Engineered Vascular Grafts Transform into Autologous Neovessels Capable of Native Function and Growth”, <i>revision submitted</i>. </li>
 		<li> M. Latorre, J. Szafron, <b>A. B. Ramachandra</b>, and J. D. Humphrey, “In Vivo Development of Tissue Engineered Vascular Grafts: A Finite Element Fluid-Solid-Growth Model”, <i> under review</i>. </li>
 		<li> <b>A. B. Ramachandra</b>, M. Sauler, J. D. Humphrey, and E. Manning, “Compromised Pulmonary Function and Vascular Properties in Fibulin-5 Deficient Mice”, <i>submitted</i>.</li>
                 </ol>
-* denotes equal contribution
+<b>* denotes equal contribution</b>
+        
+        </div>
+      
+    </div>
+  </div>
+</div>
+         
+      </div>
 
-                <h4> Journal Covers </h4>
-                 <figure>
-                 <a href="https://academic.oup.com/ib/issue/12/3"> <img src="./files/2019_IB_cover.png" width="250" height="300"> </a>
-                 <a href="https://stm.sciencemag.org/content/12/537"> <img src="./files/2020_STM_cover.png" width="250" height="300"> </a>
-                 <a href="https://stm.sciencemag.org/content/12/557"> <img src="./files/2020_AVVA_STM_cover.png" width="250" height="300"> </a>
-                 <a href="https://onlinelibrary.wiley.com/doi/10.1002/adhm.202070086"> <img src="./files/2020_AHM_cover.jpg" width="250" height="300"> </a>
-                </figure>
+     <div class="tab-pane fade" id="pills-teaching" role="tabpanel" aria-labelledby="pills-teaching-tab">
+       <b>Teaching Assistant</b>
+        <ul>
+		<li>MAE107, Numerical Methods- undergraduate class, University of California San Diego, Spring 2013</li>
+		<li>BENG276, Numerical Analysis for Multiscale Biology- graduate class, University of California San Diego, Winter 2015</li>
+		<li>MAE261, Cardiovascular Fluid Mechanics- graduate class, University of California San Diego, Winter 2015</li>
+		</ul>
+       <b>Guest Lecturer</b> 
+       <ul>
+       	<li>MAE107, Numerical Methods- undergraduate class, University of California San Diego, Spring 2013</li>
+       	<li>MAE261, Cardiovascular Fluid Mechanics- graduate class, University of California San Diego</li>
+       	<li>ME/CME/BIOE 285, Computational Modeling in the Cardiovascular System- graduate class, Stanford University, Spring 2016</li>
+       	<li>BENG205, Discovery and Design- undergraduate class, Yale University, Fall 2017, 2018, 2019, 2020</li>
+       </ul>
+	   <b>Grader</b> 
+	   <ul> <li>21-369, Numerical Methods - Carnegie Mellon University, Spring 2010</li></ul>
+       <b>Illustrator</b>
+       <ul>
+       <li> <a href="http://ruina.tam.cornell.edu/Book/"> Introduction to Statics and Dynamics</a>, Andy Ruina and Rudra Pratap, Oxford University
+Press (Preprint)</li>
+       	<li><a href="https://global.oup.com/ushe/product/getting-started-with-matlab-9780190602062?cc=us&lang=en&">Getting Started with MATLAB: A Quick Introduction for Scientists and Engineers</a>, Rudra
+Pratap, Oxford University Press</li>
+       </ul>
+       
 
-                </p>	<!-- ending paragraph for publications-->
-                </div>
-               
-              <div id="Resources" class="tabcontent">
-		<hr style="color:rgb(11,78,137);"/>  
-                <h3>Resources</h3>
-                <p>
-                <ul>
-		         <li> <a href="https://simvascular.github.io" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Simvascular </a> <br /> </li>
-                         <li> <a href="https://www.youtube.com/watch?v=yZS3qFSL6lk" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Simvascular: Glenn - simulation setup </a> <br /> </li>
-                         <li> <a href="https://www.youtube.com/watch?v=tMtlw5XpT9k" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;"> Simvascular: Glenn - post processing </a> <br /> </li>
-			 <li> Illustrative patient-specific coronary bypass graft <a href="https://www.youtube.com/watch?v=gE8qms8P4jg" style="color:rgb(11,78,137);text-decoration:none;font-weight:bold;">simulation</a> from my Ph. D. thesis 
+        
+         <b>Technical Reviewer</b>
+             <ul>
+		      <li>Journals- Acta Biomaterialia, PLOS ONE, PLOS Computational Biology, Scientific Reports, Annals of Anatomy, The Journal of Physiology, Journal of Biomechanics</li>
+		      <li>Conference - Summer Biomechanics, Bioengineering, and Biotransport Conference</li>
 	        </ul>
-                </p>
-                </div>
-		</div>	
-				 
-<!--		</nav> -->
-		<div class="container">
-    		<div class="blurb">
-        					
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<hr1>
-		<footer>		
-   		
-		</footer>
-	</body>
+    
+    </div>
+    <div class="tab-pane fade" id="pills-links" role="tabpanel" aria-labelledby="pills-resources-tab">
+             <b>Resources</b> 
+            <ul>
+		         <li> <a href="https://simvascular.github.io"> Simvascular </a> <br /> </li>
+                         <li> <a href="https://www.youtube.com/watch?v=yZS3qFSL6lk"> Simvascular: Glenn - simulation setup </a> <br /> </li>
+                         <li> <a href="https://www.youtube.com/watch?v=tMtlw5XpT9k"> Simvascular: Glenn - post processing </a> <br /> </li>
+	        </ul>
+	        <b>Featured</b>
+	        <ul>
+	        	<li>Illustrative patient-specific coronary bypass graft <a href="https://www.youtube.com/watch?v=gE8qms8P4jg">simulation</a> from my Ph. D. thesis on the SIAM Youtube channel.</li> 
+
+	        </ul>
+    
+    </div>
+     </div> 
+    
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
